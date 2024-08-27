@@ -16,7 +16,7 @@ function App() {
       minify: minifyRef.current
     }
 
-    fetch("/v1/parse/", {
+    fetch("http://localhost:3000/v1/parse/", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
