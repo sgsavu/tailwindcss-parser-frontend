@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.textarea {
+  margin: 20px;
+  background-color: rgb(24 24 27);
+  width: 500px;
+  height: 300px;
+}
